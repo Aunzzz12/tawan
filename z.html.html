@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ควย</title>
+</head>
+
+<body>
+
+    <video width="1502" height="800" controls>
+        <source src="c:\Users\mobil\Downloads\dc05963b-54a3-4952-9053-fa3481cc2207.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+
+      </video>
+
+
+      <style>
+        /* Set display to none for image*/
+        #image {
+            display: none;
+        }
+    </style>
+ 
+</body>
+
+    <div>
+        <h1>Donate</h1>
+        <h3>ถ้าชอบก็โดเนทกันได้ครับ</h3>
+        <!--  -->
+        <img id="image"
+             src=
+c:\Users\mobil\Downloads\80660406-3023-43ef-89b8-2c1e2b1e7a17.png             alt="GFG image" />
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+        โดเนท
+    </button>
+ 
+    <script>
+        function show() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+    </script>
+
+
+
+</html>
